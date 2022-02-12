@@ -27,7 +27,8 @@ Don't rely 100% on this bot.
 EMAIL=               Sender email  
 EMAIL_PASSWORD=     Sender password  
 EMAIL_RECEIVER_1=   Recipient email  
-EMAIL_RECEIVER_2=    Another recipient email  
+EMAIL_RECEIVER_2=    Another recipient email 
+TELEGRAM_CHAT_ID=     Telegram's chat id
 
 # TODO:
 - Add more embassies and consulates
