@@ -7,6 +7,9 @@ Countries currently available:
 - Japan
 - Korea
 
+## ATTENTION
+Don't rely 100% on this bot.
+
 # How to use
 
 - Create a new email to send those messages;
