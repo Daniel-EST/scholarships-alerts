@@ -13,6 +13,7 @@ logger.setLevel(logging.INFO)
 def parse_korea_embassy_data(data, urls, dates):
     for i, text in enumerate(data):
         text = unidecode(text).lower()
+        text = text.replace('new', '', 1)
         logger.info(text)
         matches = re.search('gks', text)
         url = parse_korea_embassy_url(urls[i])
