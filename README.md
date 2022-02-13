@@ -1,5 +1,7 @@
 # International Scholarships Alert
 
+Host yourself or check out my <a href="https://t.me/+LUWAZNQoHSs0MTBh">Telegram</a> chanel.
+
 This is a really simple AWS lambda function that alerts information about scholarships from embassies and consulates in Brazil through email (for now).
 
 Countries currently available:
