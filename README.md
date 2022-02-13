@@ -36,4 +36,4 @@ TELEGRAM_CHAT_ID=     Telegram's chat id
 - Add more embassies and consulates
 - Email database
 - Front-end for email register
-- Huge refactor (code is currently really bad, and it's kinda embarrassing)
+- Huge refactor (code is currently really bad. tbh it's kinda embarrassing)
