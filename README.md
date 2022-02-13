@@ -26,12 +26,12 @@ Don't rely 100% on this bot.
 
 # Enviroment variables
 
-- EMAIL=               Sender email  
-- EMAIL_PASSWORD=     Sender password  
-- EMAIL_RECEIVER_1=   Recipient email  
-- EMAIL_RECEIVER_2=    Another recipient email 
-- TELEGRAM_KEY=     Telegram's bot auth key
-- TELEGRAM_CHAT_ID=     Telegram's chat id
+- EMAIL=Sender email  
+- EMAIL_PASSWORD=Sender password  
+- EMAIL_RECEIVER_1=Recipient email  
+- EMAIL_RECEIVER_2=Another recipient email 
+- TELEGRAM_KEY=Telegram's bot auth key
+- TELEGRAM_CHAT_ID=Telegram's chat id
 
 # TODO:
 - Add more embassies and consulates
