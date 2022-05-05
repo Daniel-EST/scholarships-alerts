@@ -41,8 +41,10 @@ def parse_mext_data(data):
 
 def parse_mext_date(text):
     text = unidecode(text)
-    pattern = r'(\d{2}) de (\w+) a (\d{2}) de (\w+) de (\d{4})'
+    pattern = r'(\d{1,2}) de (\w+) a (\d{1,2}) de (\w+) de (\d{4})'
+    pattern2 = r'(\d{1,2}) a (\d{1,2}) de (\w+) de (\d{4})'
     matches = re.search(pattern, text)
+    matches2 = re.search(pattern2, text)
 
     if matches:
         day_init = int(matches.group(1))
@@ -50,6 +52,16 @@ def parse_mext_date(text):
         day_end = int(matches.group(3))
         month_end = MONTHS[matches.group(4)]
         year = int(matches.group(5))
+
+        start = datetime(year, month_init, day_init)
+        end = datetime(year, month_end, day_end)
+    
+    elif matches2:
+        day_init = int(matches2.group(1))
+        month_init = MONTHS[matches2.group(3)]
+        day_end = int(matches2.group(2))
+        month_end = MONTHS[matches2.group(3)]
+        year = int(matches2.group(4))
 
         start = datetime(year, month_init, day_init)
         end = datetime(year, month_end, day_end)
