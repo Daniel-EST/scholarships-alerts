@@ -1,11 +1,16 @@
 # International Scholarships Alert
 
-This is a really simple AWS lambda function that alerts information about scholarships from embassies and consulates in Brazil through email (for now).
+Host yourself or check out my <a href="https://t.me/+LUWAZNQoHSs0MTBh">Telegram</a> chanel.
+
+This is a really simple AWS lambda function that alerts information about scholarships from embassies and consulates in Brazil through email and telegra.
 
 Countries currently available:
 - China
 - Japan
 - Korea
+
+## ATTENTION
+Don't rely 100% on this bot.
 
 # How to use
 
@@ -21,14 +26,15 @@ Countries currently available:
 
 # Enviroment variables
 
-EMAIL=               Sender email  
-EMAIL_PASSWORD=     Sender password  
-EMAIL_RECEIVER_1=   Recipient email  
-EMAIL_RECEIVER_2=    Another recipient email  
+- EMAIL=Sender email  
+- EMAIL_PASSWORD=Sender password  
+- EMAIL_RECEIVER_1=Recipient email  
+- EMAIL_RECEIVER_2=Another recipient email 
+- TELEGRAM_KEY=Telegram's bot auth key
+- TELEGRAM_CHAT_ID=Telegram's chat id
 
 # TODO:
 - Add more embassies and consulates
-- Telegram Integration
 - Email database
 - Front-end for email register
-- Huge refactor (code is currently really bad, and it's kinda embarrassing)
+- Huge refactor (code is currently really bad. tbh it's kinda embarrassing)
