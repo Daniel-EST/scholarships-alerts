@@ -9,6 +9,8 @@ Countries currently available:
 - Japan
 - Korea
 
+<img src="./docs/screenshot.jpg" alt="screnshot" width="200"/>
+
 ## ATTENTION
 Don't rely 100% on this bot.
 
