@@ -4,15 +4,17 @@ Host yourself or check out my <a href="https://t.me/+LUWAZNQoHSs0MTBh">Telegram<
 
 This is a really simple AWS lambda function that alerts information about scholarships from embassies and consulates in Brazil through email and telegra.
 
+If you liked this you might like [this repo](https://github.com/Daniel-EST/bolsas-de-estudo-para-brasileiros) that has some information about international scholarships worldwide that I gathered while during my research.
+
 Countries currently available:
 - China
 - Japan
 - Korea
 
-<img src="./docs/screenshot.jpg" alt="screnshot" width="200"/>
+### Don't rely 100% on this bot.
 
-## ATTENTION
-Don't rely 100% on this bot.
+## Bot in action
+<img src="./docs/screenshot.jpg" alt="screnshot" width="200"/>
 
 # How to use
 
